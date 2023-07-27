@@ -1,8 +1,6 @@
 pipeline {
     /* specify nodes for executing */
-    agent {
-        any
-    }
+    agent any
  
     stages {
         stage('Do the deployment') {
