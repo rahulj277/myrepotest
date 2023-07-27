@@ -5,11 +5,10 @@ pipeline {
     }
  
     stages {
-        /* checkout repo */
         stage('Do the deployment') {
             steps {
                 echo ">> Run deploy applications "
-                sh "cat testing.txt"
+                sh "cat testing"
             }
         }
     }
